@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Outfit:wght@400;700&family=Roboto:wght@300&display=swap');
+
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -7,6 +9,34 @@
     color: hsl(228, 45%, 44%);
 }
 
+
 body{
     background-color: hsl(204, 43%, 93%);
+    font-family: "Karla";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#main{
+    width: 400px;
+    height: 320px;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#flex{
+    display: flex;
+}
+#lower1{
+    background-color: hsl(179, 62%, 43%);
+}
+#lower2{
+    background-color: hsl(179, 56%, 60%);
+}
+
+h4{
+    color: hsl(179, 62%, 43%);
 }
