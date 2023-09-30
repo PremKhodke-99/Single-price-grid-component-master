@@ -16,25 +16,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 #main{
-    width: 400px;
-    height: 320px;
+    display: block;
+    width: 500px;
+    height: 400px;
     background-color: aliceblue;
     border-radius: 5px;
-    padding: 10px;
 }
-
-#flex{
+#upper{
+    height: 50%;
+}
+.flex{
     display: flex;
+    flex-direction: row;
+    height: 50%;
 }
 #lower1{
     background-color: hsl(179, 62%, 43%);
+    width: 50%;
 }
 #lower2{
     background-color: hsl(179, 56%, 60%);
+    width: 50%;
 }
 
 h4{
